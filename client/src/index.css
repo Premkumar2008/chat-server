@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700,900');
+
+body{
+	margin: 0px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    background-color: rgb(3 169 244 / 5%);
+}
+.product-entryform{
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 0px 9px -3px rgb(128 128 128 / 63%);
+    padding: 30px;
+    width: 300px;
+    margin: 20px auto;
+    border-top: 5px solid #EF5350;
+    border-bottom: 5px solid #EF5350;
+    
+}
+.form-title{
+    color: #EF5350;
+    text-align: center;
+    margin-bottom: 30px;
+    /* border-bottom: 3px solid #EF5350; */
+    font-weight: 400;
+    font-size: 19px;
+    padding-bottom: 10px;
+}
+.form-box{
+    margin-top:30px;
+}
+.form-input{
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px solid rgb(128 128 128 / 22%);
+    width: 280px;
+    padding: 12px;
+    background-color: rgb(128 128 128 / 29%);
+    margin-bottom: 20px;
+}
+.form-input:focus, .submit-button:focus{
+    
+    border: 1px solid rgb(128 128 128 / 22%);
+    outline: none;
+}
+.submit-button{
+    margin-top: 15px;
+    
+    cursor: pointer;
+    width: 310px;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    border: 1px solid rgb(128 128 128 / 34%);
+    border-radius: 5px;
+    background-color: #EF5350;
+}
+.label{
+    width: 300px;
+    color: #252b2a;
+    text-align: left;
+    margin-bottom: 9px;
+    margin-top: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  .selectitem{
+      float:left;
+      margin-right:25px;
+      
+  }
+  .clearfix{clear:both;}
+  .headbar{padding: 20px;
+    background-color: #EF5350;
+    overflow: auto;margin-bottom: 15px;}
+  .chatroom_name{float: left;
+    color: white;
+    font-size: 13px;
+    font-size: 15px;
+    font-weight: 500;}
+  .close_chat{float:right;color:white;font-size: 13px;text-decoration:none;}
+  .close_chat a{color:white;text-decoration: none;}
+  .outerContainer{box-shadow: 0px 0px 9px -3px rgb(128 128 128 / 63%);
+    height: 600px;
+    width: 800px;
+    margin: 50px auto;
+    background-color: rgb(255 252 252);
+    position: relative;
+    border-radius: 12px;
+    
+}
+    .onlinedot{margin-right: 10px;
+        float: left;
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: greenyellow;
+        font-size: 4px;
+        color: transparent;
+        margin-top: 5px;
+        margin-left: 0px;}
+        .biginput{width: 80%;
+           font-size: 14px;
+        padding:15px;
+            border: 1px solid rgb(128 128 128 / 19%);
+        }
+        .biginput:focus{
+            border: 1px solid rgb(128 128 128 / 19%);
+            outline: none;
+        }
+            .sndmsgposition{
+                bottom: 0;
+    position: absolute;
+    width: 100%;
+            }
+            .sendmsgbtn{border: 0px;
+                background-color: #EF5350;
+                width: 16%;
+                padding: 16px 0px;
+                color: white;
+                font-size: 14px;
+                font-weight: 600;
+                cursor: pointer;}
+                .react-scroll-to-bottom--css-lesro-79elbk {
+                    padding: 15px;
+                   
+                }
+                .messageContainer.mright p{
+                    background-color: rgb(239 83 80 / 25%);
+                    padding: 10px 30px;
+                    border-radius: 14px;
+                    box-shadow: 1px 2px 3px rgb(128 128 128 / 32%);
+                    margin: 5px;
+                    
+                    float: right;  
+                }
+                .messageContainer.mrleft p {
+                    margin: 10px;
+                    background-color: rgb(128 128 128 / 14%);
+                    padding: 10px 30px;
+                    border-radius: 14px;
+                    box-shadow: 1px 2px 3px rgb(128 128 128 / 32%);
+                    margin: 5px;
+                    width: max-content;
+                    float: left;
+                }
+                .sendmsgbtn:focus{
+                    border:0px solid grey;
+                    outline: none;
+                }
+                .messageContainer.mrleft, .messageContainer.mrright{
+                    padding: 5px;
+                }
+                .listofOrders{
+                    height: 76%;
+                    position: absolute;
+                    top: 58px;
+                    border-right: 1px solid rgb(128 128 128 / 36%);;
+                    padding: 15px;
+                    width: 160px;
+                    background-color: white;
+                }
+                .your-orders{
+                    font-weight: 500;
+                    font-size: 14px;
+                }
+
+                /** responsive **/
+                @media only screen and (max-width: 800px) {
+                    .outerContainer {
+                        box-shadow: 0px 0px 9px -3px rgb(128 128 128 / 63%);
+                        height: 100vh;
+                        width: 100%;
+                        margin: 0px auto;
+                        background-color: rgb(255 252 252);
+                        position: relative;
+                        border-radius: 12px;
+                    }
+                    .biginput {
+                        width: 75.2%;
+                    }
+                }
+                @media only screen and (max-width: 425px) {
+                    .product-entryform {
+                        border-radius: 12px;
+                        background-color: white;
+                        box-shadow: 0px 0px 9px -3px rgb(128 128 128 / 63%);
+                        padding: 12px;
+                        width: 80%;
+                        margin: 10px auto;
+                        border-top: 5px solid #EF5350;
+                        border-bottom: 5px solid #EF5350;
+                    }
+                    .label {
+                        width: 100%;
+                    }
+                    .form-input{
+                        width:90%;
+                    }
+                    .submit-button {
+                        margin-top: 15px;
+                        cursor: pointer;
+                        width: 100%;
+                    }
+                }
+               
+                .react-scroll-to-bottom--css-dcvvq-79elbk {
+                    height: 465px;
+                }
